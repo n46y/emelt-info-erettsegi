@@ -12,7 +12,7 @@ if __name__ == "__main__":
     # 1. Feladat: beolvasás
     adat = []
 
-    with open("kep.txt", "r", encoding="utf-8") as file:
+    with open("../../input/2023maj/kep.txt", "r", encoding="utf-8") as file:
         for sor in file:
             adat.append([])
             for idx, szam in enumerate(sor.strip().split(" ")):
